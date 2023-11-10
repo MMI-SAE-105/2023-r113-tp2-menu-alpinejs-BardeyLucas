@@ -50,15 +50,15 @@
     </p>
     <dl>
       <dt @click="bonusOpen=1">Lorem.</dt>
-      <dd>Lorem ipsum dolor sit amet.</dd>
+      <dd x-show="bonusOpen == 1">Lorem ipsum dolor sit amet.</dd>
     </dl>
     <dl>
       <dt @click="bonusOpen=2">Minus.</dt>
-      <dd>Voluptatum obcaecati soluta exercitationem in.</dd>
+      <dd x-show="bonusOpen == 2">Voluptatum obcaecati soluta exercitationem in.</dd>
     </dl>
     <dl>
       <dt @click="bonusOpen=3">A!</dt>
-      <dd>Eum minus sunt officiis consequatur!</dd>
+      <dd x-show="bonusOpen == 3">Eum minus sunt officiis consequatur!</dd>
     </dl>
   </body>
 </html>

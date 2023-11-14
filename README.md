@@ -1,3 +1,3 @@
 - nom : Bardey 
 - prénom : Lucas
-- URL publique du site :
+- URL publique du site : https://github.com/MMI-SAE-105/2023-r113-tp2-menu-alpinejs-BardeyLucas

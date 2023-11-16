@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-image: url(../../Public/img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: calc(150vh);
+}
+body>div{  
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.2);
+}
+h1{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+body>div>div{
+    text-align: center;
+}
+body>div>div>img{
+    width: 50%;
+}

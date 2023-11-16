@@ -2,20 +2,57 @@ body {
     margin: 0;
     background-image: url(../../Public/img/fond.jpg);
     background-repeat: no-repeat;
-    background-size: calc(150vh);
+    background-size: cover;
 }
 body>div{  
     height: 100vh;
     background: rgba(255, 255, 255, 0.2);
+    padding-top: 50px;
+}
+.titre{
+    margin-left: 25vw;
+    width: 50vw;
+    background-color: black;
+    padding: 2px;
+    padding-bottom: 0 ;
 }
 h1{
     margin: 0;
-    padding: 10px;
+    line-height: 50px;
     text-align: center;
-}
-body>div>div{
-    text-align: center;
+    background-color: #fff;
 }
 body>div>div>img{
-    width: 50%;
+    margin-left: 25vw;
+    width: 50vw;
+    background-color: black;
+    padding: 2px;
+}
+.choice{
+    position:absolute;
+    margin-top: -7px;
+    margin-left: 25vw;
+    width: 50vw;
+    display: flex;
+    z-index: 10;
+}
+p{
+    text-align: center;
+    font-size: small;
+    line-height: 40px;
+    margin-top: 0;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+.button-A{
+    width: 25vw;
+    background-color: black;
+    padding: 2px;
+    padding-right: 1px;
+}
+.button-B {
+    width: 25vw;
+    background-color: black;
+    padding: 2px;
+    padding-left: 1px;
 }

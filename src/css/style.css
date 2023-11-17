@@ -1,11 +1,12 @@
 body {
     margin: 0;
+    background-color: #010101;
     background-image: url(../../Public/img/fond.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 body>div{  
-    height: 100vh;
+    height: 100vmax;
     background: rgba(255, 255, 255, 0.2);
     padding-top: 50px;
 }
@@ -29,11 +30,9 @@ body>div>div>img{
     padding: 2px;
 }
 .choice{
-    position:absolute;
     margin-top: -7px;
     margin-left: 25vw;
-    width: 50vw;
-    display: flex;
+    display:flex;
     z-index: 10;
 }
 p{
@@ -44,15 +43,15 @@ p{
     background-color: #fff;
     margin-bottom: 0;
 }
-.button-A{
-    width: 25vw;
+ .button-A{
+    width: calc(25vw - 1px);
     background-color: black;
     padding: 2px;
     padding-right: 1px;
 }
 .button-B {
-    width: 25vw;
+    width: calc(25vw - 1px);
     background-color: black;
     padding: 2px;
     padding-left: 1px;
-}
+} 

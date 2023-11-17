@@ -59,11 +59,25 @@ a{
     text-decoration: none;
     color: black;
 }
+.article>div{
+    margin-left: 15vw;
+    display: flex;
+}
 .article h1{
     margin-left: 10vw;
     width: 80vw;
     border: solid;
 }
-.article img{
+.article>div>a>div{
+    margin-top: 20px;
+    height: 30vw;
+    width: 30vw;
+    background-image: url("../../Public/img/Denji/denji-normal.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
+}
+.article>div>a+a>div {
+    margin-left: 10vw;
 }

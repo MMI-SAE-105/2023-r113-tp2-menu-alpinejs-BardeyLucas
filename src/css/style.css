@@ -74,7 +74,7 @@ a{
     width: 30vw;
     background-repeat: no-repeat;
     background-size: cover;
-
+    border: solid;
 }
 .article>div>a+a>div {
     margin-left: 10vw;
@@ -87,4 +87,13 @@ a{
     background-image: url("../../Public/img/Denji/denji-conducteur.jpg");
     background-position: center;
     background-position: top;
+}
+.article>div>a>div+div {
+    margin-top: 0;
+    background-color: #fff;
+    width: 30vw;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-top: 0;
 }

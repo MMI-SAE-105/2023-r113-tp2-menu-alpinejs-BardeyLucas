@@ -72,12 +72,19 @@ a{
     margin-top: 20px;
     height: 30vw;
     width: 30vw;
-    background-image: url("../../Public/img/Denji/denji-normal.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 
 }
 .article>div>a+a>div {
     margin-left: 10vw;
+}
+.Denji1{
+    background-image: url("../../Public/img/Denji/denji-normal.webp");
+    background-position: center;
+}
+.Denji2 {
+    background-image: url("../../Public/img/Denji/denji-conducteur.jpg");
+    background-position: center;
+    background-position: top;
 }

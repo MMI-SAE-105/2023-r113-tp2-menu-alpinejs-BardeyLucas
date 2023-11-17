@@ -55,3 +55,15 @@ p{
     padding: 2px;
     padding-left: 1px;
 } 
+a{
+    text-decoration: none;
+    color: black;
+}
+.article h1{
+    margin-left: 10vw;
+    width: 80vw;
+    border: solid;
+}
+.article img{
+
+}

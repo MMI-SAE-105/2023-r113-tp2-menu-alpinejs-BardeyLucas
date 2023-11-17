@@ -107,3 +107,9 @@ a{
     line-height: 50px;
     border-top: 0;
 }
+.article>img{
+    margin-top: 20px;
+    margin-left: 20vw;
+    width: 60vw;
+    border: solid;
+}

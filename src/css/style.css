@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-body>div{  
+main>div{  
     height: 100vmax;
     background: rgba(255, 255, 255, 0.2);
     padding-top: 50px;
@@ -23,7 +23,7 @@ h1{
     text-align: center;
     background-color: #fff;
 }
-body>div>div>img{
+main>div>div>img{
     margin-left: 25vw;
     width: 50vw;
     background-color: black;

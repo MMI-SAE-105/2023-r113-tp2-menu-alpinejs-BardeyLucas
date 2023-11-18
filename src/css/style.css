@@ -119,6 +119,9 @@ a{
     background-position: center;
     background-position: top;
 }
+#correctif-img{
+    height: calc(100%);
+}
 .Pingouin1{
     background-image: url("../../Public/img/Pingouin/mini-pingouin.jpeg");
     background-position: center;

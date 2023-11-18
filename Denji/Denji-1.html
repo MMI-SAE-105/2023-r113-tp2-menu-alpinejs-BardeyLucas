@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../src/css/style.css" />
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
@@ -13,13 +14,13 @@
         <a href="/index.html"><img src="/Public/img/logo.jpeg"></a>
         <a href="/Denji/index.html"><button>Denji</button></a>
         <button @click="MenuOpen = 1"><img src="/Public/icones/ArrowDOWN.svg"></button>
-        <nav x-show="MenuOpen == 1">
+        <nav x-show="MenuOpen == 1" x-collapse>
             <a href="/Denji/Denji-1.html">Denji classique</a>
             <a href="/Denji/Denji-2.html">Denji Epic</a>
         </nav>
         <a href="/Pingouin/index.html"><button>Pingouin</button></a>
         <button @click="MenuOpen = 2"><img src="/Public/icones/ArrowDOWN.svg"></button>
-        <nav x-show="MenuOpen == 2">
+        <nav x-show="MenuOpen == 2" x-collapse>
             <a href="/Pingouin/Pingouin-1.html">Mini pingouin</a>
             <a href="/Pingouin/Pingouin-2.html">Faux pingouin</a>
         </nav>

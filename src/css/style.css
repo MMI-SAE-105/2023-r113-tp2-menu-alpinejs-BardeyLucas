@@ -1,8 +1,10 @@
 header{
+    margin-top: -80px;
+    position: fixed;
     background-color: #0b01c1A0;
     display: flex;
     height: 60px;
-    width: calc(60vw + 80px);
+    width: calc(60vw + 200px);
     margin-bottom: 20px;
     border-bottom-right-radius: 10px ;
 }
@@ -24,6 +26,7 @@ header button{
 /*-----------------*/
 
 body {
+    padding-top: 80px;
     margin: 0;
     background-color: #010101;
     background-image: url(../../Public/img/fond.jpg);
@@ -140,4 +143,12 @@ a{
     margin-left: 20vw;
     width: 60vw;
     border: solid;
+}
+button{
+    padding: 0;
+}
+button>img{
+    margin: auto;
+    width: 36px;
+    margin: 0 7px ;
 }

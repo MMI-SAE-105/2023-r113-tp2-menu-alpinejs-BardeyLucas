@@ -1,3 +1,5 @@
 - nom : Bardey 
 - prénom : Lucas
-- URL publique du site : https://github.com/MMI-SAE-105/2023-r113-tp2-menu-alpinejs-BardeyLucas
+- URL publique du sites : 
+https://admirable-gumption-1a2f50.netlify.app/
+https://menu-alpine.lucas-bardey.fr/

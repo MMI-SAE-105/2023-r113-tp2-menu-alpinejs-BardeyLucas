@@ -177,5 +177,10 @@ header>nav>a{
     color: #fff;
 }
 .Element-404{
-text-align: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.Element-404 label{
+    text-align: center;
+    color: white;
 }
